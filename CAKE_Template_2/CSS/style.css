@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+h1 {
+    font-size: 100px;
+}
+.elements button {
+    border-radius: 50px;
+}
+.but {
+    height: 50px;
+    width: 120px;
+    background-color: black;
+}
+.hero {
+    min-height: 100vh;
+    background-image: url("../IMAGES/Background/hero_image.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.hero-content {
+    padding-top: 80px;
+}
+.hero h1 {
+    font-size: 65px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero h1 span {
+    color: #e59a9a;
+}
+.hero-text {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+.but1 {
+    border-radius: 50px;
+}
+.heading1 {
+    padding-top: 50px;
+}
+.hed2 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.information button {
+    border-radius: 50px;
+}
+.icon-card {
+    height: 100%;
+}
+.icons {
+    gap: 200px;
+}
+.photo:hover {
+    height: auto;
+    background-color: white;
+    height: 530px;
+    overflow-y: hidden;
+}
+.hed3 {
+    font-size: 50px;
+}
+
+.video {
+    background-image: url(../IMAGES/Background/imgi_21_video-bg.jpeg);
+    width: 100vw;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.click {
+    font-size: 150px;
+    padding-top: 150px;
+}
+.cake-type {
+    padding-top: 50px;
+}
+.foot-line span {
+    color: red;
+}
+.footer {
+    padding-top: 80px;
+    height: 100%;
+}
+.foot-line {
+    padding-top: 40px;
+}
+.carousel-item .card {
+    width:100px;
+   
+}
+.carousel-item .card:nth-child(n+2) {
+    display: none;
+}
+.carousel-item > div {
+    gap: 0;
+}
+.carousel-item .card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+/* Tablet View */
+
+@media (min-width: 768px)  {
+
+    .carousel-item .card {
+        width: 45%;
+    }
+
+    .carousel-item .card:nth-child(2) {
+        display: block;
+    }
+
+    .carousel-item .card:nth-child(3) {
+        display: none;
+    }
+
+    .carousel-item > div {
+        gap: 1rem;
+    }
+}
+/* Desktop View */
+
+@media (min-width: 991px) {
+
+    .carousel-item .card {
+        width: 30%;
+    }
+
+    .carousel-item .card:nth-child(2),
+    .carousel-item .card:nth-child(3) {
+        display: block;
+    }
+
+    .carousel-item > div {
+        gap: 1.5rem;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+}
+
